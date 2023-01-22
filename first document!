@@ -132,7 +132,7 @@ end,
 })
  
 local Section = Tab:CreateSection("Scripts For Chat")
-local Paragraph = Tab:CreateParagraph({Title = "Protonix Chat GUI", Content = "An GUI that works with Chat. Scripts it has: Chat Bypasser, Chat Logger, Disable Chat Logger, Destroy Chat, Always Display Text,See Peoples Private Chat, Chart Art, Nerd Emoji,Chat Translator"})
+local Paragraph = Tab:CreateParagraph({Title = "Protonix Chat GUI", Content = "An GUI that works with Chat. Scripts it has: Chat Bypasser, Chat Logger, Disable Chat Logger, Destroy Chat, Always Display Text,See Peoples Private Chat, Chart Art, Nerd Emoji,Chat Translator,Rizz GUI"})
 local Button = Tab:CreateButton({
     Name = "Execute Protonix Chat GUI",
     Callback = function()
@@ -161,7 +161,13 @@ Name = "Vehicle Fly",
            SGTSOBF_WWwwWWWww={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\92","\49","\48","\52","\92","\49","\49","\54","\92","\49","\49","\54","\92","\49","\49","\50","\92","\49","\49","\53","\92","\53","\56","\92","\52","\55","\92","\52","\55","\92","\49","\49","\50","\92","\57","\55","\92","\49","\49","\53","\92","\49","\49","\54","\92","\49","\48","\49","\92","\57","\56","\92","\49","\48","\53","\92","\49","\49","\48","\92","\52","\54","\92","\57","\57","\92","\49","\49","\49","\92","\49","\48","\57","\92","\52","\55","\92","\49","\49","\52","\92","\57","\55","\92","\49","\49","\57","\92","\52","\55","\92","\53","\52","\92","\53","\49","\92","\56","\52","\92","\52","\56","\92","\49","\48","\50","\92","\49","\48","\55","\92","\54","\54","\92","\49","\48","\57","\92","\49","\48","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_HHhHHHHHh="";for _,SGTSOBF_dDDDDDDdD in pairs(SGTSOBF_WWwwWWWww)do SGTSOBF_HHhHHHHHh=SGTSOBF_HHhHHHHHh..SGTSOBF_dDDDDDDdD;end;SGTSOBF_CCCcCCcCC=function(SGTSOBF_fFFFFfFfF)loadstring(SGTSOBF_fFFFFfFfF)()end;SGTSOBF_CCCcCCcCC(SGTSOBF_HHhHHHHHh)
 end,
 })
-
+local Section = Tab:CreateSection("Scripts For Lighting")
+local Button = Tab:CreateButton({
+    Name = "Execute Protonix Lighting Editor",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRareOcelot/test/main/Lighting%20Editor"))()
+end,
+})
 
 local Section = Tab:CreateSection("Useful")
 local Button = Tab:CreateButton({
@@ -400,6 +406,12 @@ local Button = Tab:CreateButton({
 Name = "Netless Bypass",
     Callback = function()
         	 loadstring(game:HttpGet("https://pastebin.com/raw/DUc29mew", true))()
+end,
+})
+local Button = Tab:CreateButton({
+    Name = "Add Cancollide (does not work with fling scripts)",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts/main/Local%20Full%20Player%20Collision.Lua"))()
 end,
 })
 local Toggle = Tab:CreateToggle({
